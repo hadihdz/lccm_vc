@@ -13,7 +13,7 @@ The checkpoints for LCCM-VC are available via the following Google Drive link:
 
 https://drive.google.com/drive/folders/1fYlJJCC9EoSr2zm5zHVsnfRt3qK6zrNq?usp=sharing
 
-Please download them, and put them in a folder like "weights" in the main directory of CANF-VC. There are 4 checkpoints corresponding to 4 lambda values {256,512,1024,2048}.
+Please download them, and put them in a folder like "weights" in the main directory of CANF-VC. There are 4 checkpoints corresponding to 4 lambda values {256,512,1024,2048}. Similar to CANF-VC, using input argumnets like "--mode_dir ./weights --lmda 2048", you can load the checkpoint. 
 
 ## Datasets
 To evaluate CANF-VC on a video dataset, follow the procedure mentioned for CANF-VC [https://github.com/NYCU-MAPL/CANF-VC] to prepare the datasets. 

@@ -13,13 +13,17 @@ The checkpoints for LCCM-VC are available via the following Google Drive link:
 
 https://drive.google.com/drive/folders/1fYlJJCC9EoSr2zm5zHVsnfRt3qK6zrNq?usp=sharing
 
-Please download them, and put them in a folder like "weights" in the main directory of CANF-VC. There are 4 checkpoints corresponding to 4 lambda values {256,512,1024,2048}. Similar to CANF-VC, using input argumnets like "--mode_dir ./weights --lmda 2048", you can load the checkpoint. 
+Please download them, and put them in a folder like "weights" in the main directory of CANF-VC. There are 4 checkpoints corresponding to 4 lambda values {256,512,1024,2048}. Similar to CANF-VC, using input arguments like "--mode_dir ./weights --lmda 2048", you can load the checkpoint via "eval_lccm_vc.py". 
 
 ## Datasets
 To evaluate CANF-VC on a video dataset, follow the procedure mentioned for CANF-VC [https://github.com/NYCU-MAPL/CANF-VC] to prepare the datasets. 
 
 ## Evaluation:
-The testing procedure for LCCM-VC is the same as CANF-VC. Please follow the evaluation commands provided at https://github.com/NYCU-MAPL/CANF-VC. However, instead of "test.py" you need to use "eval_lccm_vc.py". 
+The testing procedure for LCCM-VC is the same as CANF-VC. Please follow the evaluation commands provided at https://github.com/NYCU-MAPL/CANF-VC. However, instead of "test.py" you need to use "eval_lccm_vc.py". For instance, for testing LCCM-VC, you can use this command:
+```
+$ python3 eval_lccm_vc.py --Iframe=ANFIC --MENet=PWC --motion_coder_conf=./CANF_VC/config/DVC_motion.yml --cond_motion_coder_conf=./CANF_VC/config/CANF_motion_predprior.yml --residual_coder_conf=./CANF_VC/config/CANF_inter_coder.yml --dataset=B --dataset_path=./video_dataset --lmda=2048 --model_dir=./weights --action=test --GOP=32
+```
+
 
 ## Citation:
 If you find LCCM-VC useful for your research, please cite it as follows:

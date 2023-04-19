@@ -20,13 +20,13 @@ To evaluate CANF-VC on a video dataset, follow the procedure mentioned for CANF-
 The testing procedure for LCCM-VC is the same as CANF-VC. Please follow the evaluation commands provided at https://github.com/NYCU-MAPL/CANF-VC. However, instead of "test.py" you need to use "eval_lccm_vc.py". 
 
 ## Citation:
-If you find LCCM-VC useful, please cite it as follows:
+If you find LCCM-VC useful for your research, please cite it as follows:
 
-@InProceedings{lccm,
+[@InProceedings{lccm,
   author = 	 "H. Hadizadeh and I. V. Baji\'c",
   title =        "{LCCM-VC}: Learned Conditional Coding Modes for Video Coding",
   booktitle =        "IEEE ICASSP Workshop on Humans, Machines and Multimedia - Quality of Experience and Beyond",
   month = "Jun.",
   year = 	 "2023",
-}
+}]
 

@@ -23,7 +23,7 @@ The testing procedure for LCCM-VC is the same as CANF-VC. Please follow the eval
 ```
 $ python3 eval_lccm_vc.py --Iframe=ANFIC --MENet=PWC --motion_coder_conf=./CANF_VC/config/DVC_motion.yml --cond_motion_coder_conf=./CANF_VC/config/CANF_motion_predprior.yml --residual_coder_conf=./CANF_VC/config/CANF_inter_coder.yml --dataset=B --dataset_path=./video_dataset --lmda=2048 --model_dir=./weights --action=test --GOP=32
 ```
-
+For compressing/decompressing, simply use --action=compress or --action=decompress in the above command.
 
 ## Citation:
 If you find LCCM-VC useful for your research, please cite it as follows:

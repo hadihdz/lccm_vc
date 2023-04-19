@@ -1,6 +1,6 @@
 # A PyTorch implementation of LCCM-VC: Learned Conditional Coding Modes For Video Coding
 ## Original Paper:
-H. Hadizadeh and I. V. Bajic, "LCCM-VC: Learned Conditional Coding Modes For Video Coding"
+H. Hadizadeh and I. V. Baji\'c, "LCCM-VC: Learned Conditional Coding Modes For Video Coding," in IEEE ICASSP Workshop on Humans, Machines and Multimedia - Quality of Experience and Beyond, Jun., 2023.
 
 ## Installation:
 Note: LCCM-VC is built on CANF-VC [https://github.com/NYCU-MAPL/CANF-VC].
@@ -22,11 +22,11 @@ The testing procedure for LCCM-VC is the same as CANF-VC. Please follow the eval
 ## Citation:
 If you find LCCM-VC useful for your research, please cite it as follows:
 
-[@InProceedings{lccm,
+@InProceedings{lccm,
   author = 	 "H. Hadizadeh and I. V. Baji\'c",
   title =        "{LCCM-VC}: Learned Conditional Coding Modes for Video Coding",
   booktitle =        "IEEE ICASSP Workshop on Humans, Machines and Multimedia - Quality of Experience and Beyond",
   month = "Jun.",
   year = 	 "2023",
-}]
+}
 

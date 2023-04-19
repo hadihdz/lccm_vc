@@ -22,6 +22,7 @@ The testing procedure for LCCM-VC is the same as CANF-VC. Please follow the eval
 ## Citation:
 If you find LCCM-VC useful for your research, please cite it as follows:
 
+@cite
 @InProceedings{lccm,
   author = 	 "H. Hadizadeh and I. V. Baji\'c",
   title =        "{LCCM-VC}: Learned Conditional Coding Modes for Video Coding",

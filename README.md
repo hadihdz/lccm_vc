@@ -5,8 +5,8 @@ H. Hadizadeh and I. V. Baji\'c, "LCCM-VC: Learned Conditional Coding Modes For V
 ## Installation:
 Note: LCCM-VC is built on CANF-VC [https://github.com/NYCU-MAPL/CANF-VC].
 1. Clone CANF-VC from https://github.com/NYCU-MAPL/CANF-VC
-2. Create a conda environment and install the requirements for installing CANF-VC as instructed at https://github.com/NYCU-MAPL/CANF-VC
-3. Copy eval_lccm_vc.py to the main directory of CANF-VC.
+2. Create a conda environment and install the requirements for CANF-VC as instructed at https://github.com/NYCU-MAPL/CANF-VC
+3. Copy "eval_lccm_vc.py" from this repo to the main directory of CANF-VC. This is the main file for LCCM-VC.
 
 ## Checkpoints:
 The checkpoints for LCCM-VC are available via the following Google Drive link:

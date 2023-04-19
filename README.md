@@ -24,11 +24,11 @@ If you find LCCM-VC useful for your research, please cite it as follows:
 
 ```
 @InProceedings{lccm,
-  author = 	 "H. Hadizadeh and I. V. Baji\'c",
-  title =        "{LCCM-VC}: Learned Conditional Coding Modes for Video Coding",
-  booktitle =        "IEEE ICASSP Workshop on Humans, Machines and Multimedia - Quality of Experience and Beyond",
+  author = "H. Hadizadeh and I. V. Baji\'c",
+  title = "{LCCM-VC}: Learned Conditional Coding Modes for Video Coding",
+  booktitle = "IEEE ICASSP Workshop on Humans, Machines and Multimedia - Quality of Experience and Beyond",
   month = "Jun.",
-  year = 	 "2023",
+  year = "2023",
 }
 ```
 

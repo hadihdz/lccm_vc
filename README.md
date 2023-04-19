@@ -10,10 +10,23 @@ Note: LCCM-VC is built on CANF-VC [https://github.com/NYCU-MAPL/CANF-VC].
 
 ## Checkpoints:
 The checkpoints for LCCM-VC are available via the following Google Drive link:
+
 https://drive.google.com/drive/folders/1fYlJJCC9EoSr2zm5zHVsnfRt3qK6zrNq?usp=sharing
 
 ## Datasets
 To evaluate CANF-VC on a video dataset, follow the procedure mentioned for CANF-VC [https://github.com/NYCU-MAPL/CANF-VC] to prepare the datasets. 
 
 ## Evaluation:
-The testing procedure for LCCM-VC is the same as CANF-VC. 
+The testing procedure for LCCM-VC is the same as CANF-VC. Please follow the evaluation commands provided at https://github.com/NYCU-MAPL/CANF-VC. However, instead of "test.py" you need to use "eval_lccm_vc.py". 
+
+## Citation:
+If you find LCCM-VC useful, please cite it as follows:
+
+@InProceedings{lccm,
+  author = 	 "H. Hadizadeh and I. V. Baji\'c",
+  title =        "{LCCM-VC}: Learned Conditional Coding Modes for Video Coding",
+  booktitle =        "IEEE ICASSP Workshop on Humans, Machines and Multimedia - Quality of Experience and Beyond",
+  month = "Jun.",
+  year = 	 "2023",
+}
+
